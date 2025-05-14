@@ -1,0 +1,227 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="light">
+    <header>
+        <div class="theme-toggle">
+            <button id="botao-tema" onclick="toggleTheme()">
+                <i class="ph-moon"></i>
+            </button>
+        </div>
+
+    </header>
+    <main>
+        <div class="editSection">
+            <section>
+                <div class="cabecalhoSection">
+                    <h1>home</h1>
+                </div>
+                <div class="divApresentacao">
+                    <h2>Olá! <span>Eu sou Raffaela</span></h2>
+                    <p>Estudante de Jogos Digitais | Desenvolvedora em formação</p>
+                </div>
+
+                <div class="icon">
+                    <div class="icon-item" data-section="sobre">
+                        <i class="ph ph-info"></i>
+                        <span>sobre mim</span>
+                    </div>
+
+                    <div class="icon-item" data-section="curso">
+                        <i class="ph ph-folder"></i>
+                        <span>cursos</span>
+                    </div>
+
+                    <div class="icon-item" data-section="habilidades">
+                        <i class="ph ph-file-text"></i>
+                        <span>habilidades</span>
+                    </div>
+
+                    <div class="icon-item" data-section="contato">
+                        <i class="ph ph-envelope"></i>
+                        <span>contato</span>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="janela" id="sobre">
+        <div class="topo-janela">
+            <span>sobre mim</span>
+            <button class="fechar">[x]</button>
+        </div>
+        <div class="conteudo-janela">
+            <div class="perfil">
+                <img src="img-removebg-preview.png" alt="Foto de Raffaela" class="foto-redonda">
+                
+                <div class="descricao">
+                  <h2>Raffaela Fernandes</h2>
+                  <p>Estudante de Jogos Digitais</p>
+                </div>
+              </div>
+              <hr>
+            <p style="color: #363636;">Oi! Sou a Raffaela, estudante de Jogos Digitais na UNISINOS. Apaixonada por tecnologia, estou sempre em busca de aprender coisas novas e crescer com boas oportunidades.</p>
+
+            <h3>EDUCAÇÃO</h3>
+            <div class="educacao">
+                <p>Jogos Digitais</p>
+                <span>Unisinos(2025 - )</span>
+                <p>Ensino Médio</p>
+                <span>Colégio São Luís(2021- 2024)</span>
+
+            </div>
+            <div class="interesses">
+                <h3>OUTROS INTERESSES</h3>
+                <ul>
+                    <li>Desenhos</li>
+                    <li>Táticas de marketing</li>
+                    <li>Criação de conteúdo</li>
+                    <li>Edição de vídeos</li>
+
+                </ul>
+            </div>
+            <h3>IDIOMAS</h3>
+            <div>
+                <p><span>Inglês </span> - Intermediário</p>
+                <p><span>Espanhol </span> - Básico</p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="janela" id="curso">
+        <div class="topo-janela">
+            <span>cursos</span>
+            <button class="fechar">[x]</button>
+        </div>
+        <div class="conteudo-janela">
+            <p>Estes são alguns dos cursos que fiz durante minha jornada de aprendizado em programação!</p>
+            <br>
+            <h3>CURSOS</h3>
+            <div class="Nome-curso">
+                <p>Técnico em informática para internet </p>
+                <span>SENAC(2021-2023)</span>
+                <p>Lógica de programação com JavaScript </p>
+                <span>SENAC(2024)</span>
+                <p>Algoritmo </p>
+                <span>Curso em vídeo(2024)</span>
+                <p>JavaScript</p>
+                <span>Curso em vídeo(2024)</span>
+                <p>HTML5 CSS3</p>
+                <span>Curso em vídeo(2025)</span>
+            </div>
+            <br>
+            <h3>CURSOS DIVERSOS</h3>
+            <div class="Nome-curso">
+                <p>Marketing Digital</p>
+                <span>Recode(2025)</span>
+                <p>Office365</p>
+                <span>Recode(2025)</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="janela" id="habilidades">
+        <div class="topo-janela">
+            <span>habilidades</span>
+            <button class="fechar">[x]</button>
+        </div>
+        <div class="conteudo-janela">
+            <div class="alerta">
+                <h4>ferramentas, desenvolvimento e soft skills!</h4>
+                <p>Algumas das ferramentas, linguagens e habilidades que fazem parte do meu dia a dia :)</p>
+            </div>
+            <div class="itens">
+                <h3>FERRAMENTAS</h3>
+                <div class="caixa-habilidades">
+                    <span class="item-habilidade">Blender</span>
+                    <span class="item-habilidade">Pacote Office</span>
+                    <span class="item-habilidade">DaVinci Resolve</span>
+                    <span class="item-habilidade">Figma</span>
+                    <span class="item-habilidade">Visual Studio Code</span>
+                    <span class="item-habilidade">Adobe Photoshop</span>
+                </div>
+                <h3>DESENVOLVIMENTO</h3>
+                <div class="caixa-habilidades">
+                    <span class="item-habilidade">C#</span>
+                    <span class="item-habilidade">HTML/CSS</span>
+                    <span class="item-habilidade">JavaScript</span>
+                    <span class="item-habilidade">Java</span>
+                    <span class="item-habilidade">MySQL</span>
+                </div>
+                <h3>SOFT SKILLS</h3>
+                <div class="caixa-habilidades">
+                    <span class="item-habilidade">Organização</span>
+                    <span class="item-habilidade">Proatividade</span>
+                    <span class="item-habilidade">Trabalho em equipe</span>
+                    <span class="item-habilidade">Comunicação</span>
+                    <span class="item-habilidade">Aprendo rápido</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="janela" id="contato">
+        <div class="topo-janela">
+            <span>contato</span>
+            <button class="fechar">[x]</button>
+        </div>
+        <div class="conteudo-janela">
+            <div>
+                <h2>Oi, sumido(a)!</h2>
+                <p>Caso tenha gostado do meu trabalho e queira entrar em contato, aqui vão algumas opções de como me
+                    encontrar :) </p>
+                <ul class="contatos">
+                    <li><a href="tel:+5551996285501" target="_blank"><i class="ph ph-phone"></i> (51) 99628-5501</a>
+                    </li>
+                    <li><a href="mailto:raffa.fdo@gmail.com" target="_blank"><i class="ph ph-envelope"></i>
+                            raffa.fdo@gmail.com</a></li>
+                    <li><a href="https://www.instagram.com/raffaela._.fernandes" target="_blank"><i
+                                class="ph ph-instagram-logo"></i> @raffaela._.fernandes</a></li>
+                    <li><a href="https://www.linkedin.com/in/raffaela-fernandes-8ab75a329/" target="_blank"><i
+                                class="ph ph-linkedin-logo"></i> LinkedIn</a></li>
+                </ul>
+                <div>
+                    <br>
+                    <details class="meu-detalhe"  id="contatoAccordion">
+                        <summary>
+                            <span>não consegui entrar em contato com você, e agora?</span>
+                            <span class="seta">&#9662;</span>
+                        </summary>
+                        <div class="resposta">
+                            <p>
+                                Que bad!<br>
+                                Mas não desiste! Me chama de novo por algum dos contatos aqui. Prometo responder assim
+                                que puder :).<br>
+                                E se precisar, aqui está meu outro e-mail:
+                                <br>
+                                <strong><a href="mailto:raffaela.fdoo@gmail.com">raffaela.fdoo@gmail.com</a></strong>
+                        </div>
+                    </details>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    </main>
+    <footer>
+        <p>&copy; 2025 Raffaela Fernandes</p>
+
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
