@@ -5,7 +5,7 @@ Bem-vindo ao meu portfólio interativo!
 🌙 Modo claro e escuro  
 🎵 Sons, janelas arrastáveis, animações e muito carinho
 
-🔗 Acesse: [Clique aqui]()
+🔗 Acesse: [Clique aqui](https://raffaelafernandes.github.io/personal-website/)
 
 ---
 ✨ Desenvolvido por Raffaela Fernandes
